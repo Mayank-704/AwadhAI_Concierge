@@ -8,5 +8,6 @@ dependencies = [
     "crewai==1.14.4",
     "crewai-tools==1.14.4",
     "google-genai>=2.6.0",
+    "langchain-google-genai>=3.2.0",
     "streamlit==1.57.0",
 ]
