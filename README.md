@@ -1,5 +1,8 @@
 # 👑 AwadhAI Concierge: The Agentic Wedding Planner
 
+**Team Name**: Archons
+**Team Member**: Mayank Gupta (GitHub: Mayank-704)
+
 > "End-to-end wedding negotiation and booking for the Lucknow market, powered by multi-agent AI." 
 > 
 > 
@@ -54,9 +57,13 @@ To execute this flawlessly under extreme time constraints, we made ruthless engi
 
 
 * 
-**LLM Provider:** Gemini via `google-genai` version 2.2.0. As of late 2025, `google-generativeai` was officially deprecated, so we utilized the correct, actively maintained package for Gemini 1.5 Flash to guarantee fast and reliable API calls.
+**LLM Provider:** Gemini via `google-genai` version 2.6.0.
 
+## 🚧 Known Limitations
 
+* **No Real-time Booking:** The system does not integrate with actual booking systems.
+* **Static Vendor Data:** The `lucknow_vendors.json` is a static file and does not reflect real-time availability or pricing.
+* **Simplified Negotiation:** The negotiation logic is a randomized simulation and does not involve real-time communication with vendors.
 
 ## 💻 How to Run Locally
 
@@ -68,9 +75,3 @@ pip install streamlit==1.57.0 crewai==1.14.4 crewai-tools==1.14.4 google-genai==
 streamlit run app.py
 
 ```
-
-## 🎥 3-Minute Demo Video
-
-[Placeholder: Insert YouTube/Drive link for your final submission here] 
-
----
