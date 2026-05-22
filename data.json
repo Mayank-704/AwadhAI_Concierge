@@ -1,0 +1,57 @@
+
+{
+  "venues": [
+    {
+      "name": "The Awadh Grand Banquet",
+      "location": "Gomti Nagar",
+      "city": "Lucknow"
+    },
+    {
+      "name": "Taj Mahal, Lucknow",
+      "location": "Vipul Khand, Gomti Nagar",
+      "city": "Lucknow"
+    },
+    {
+      "name": "The Grand JBR",
+      "location": "Vibhuti Khand, Gomti Nagar",
+      "city": "Lucknow"
+    },
+    {
+      "name": "Dayal Paradise",
+      "location": "Vipin Khand, Gomti Nagar",
+      "city": "Lucknow"
+    }
+  ],
+  "caterers": [
+    {
+      "name": "Tunday Kababi",
+      "specialty": "Awadhi Cuisine",
+      "famous_for": ["Galouti Kebabs"]
+    },
+    {
+      "name": "Dastarkhwan",
+      "specialty": "Awadhi Cuisine",
+      "famous_for": ["Dum Biryani"]
+    },
+    {
+      "name": "Oudhyana",
+      "specialty": "Awadhi Cuisine",
+      "famous_for": ["Full Awadhi Menu"]
+    },
+    {
+      "name": "The Mughal's Dastarkhwan",
+      "specialty": "Awadhi Cuisine",
+      "famous_for": ["Kakori Kebabs"]
+    }
+  ],
+  "decorators": [
+    {
+      "name": "Sajavat Decorators",
+      "location": "Lucknow"
+    },
+    {
+      "name": "Lucknow Wedding Decor",
+      "location": "Lucknow"
+    }
+  ]
+}
